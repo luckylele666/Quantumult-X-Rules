@@ -1,0 +1,34 @@
+# --- 广告拦截 ---
+host-suffix, h-adashx.ut.taobao.com, reject
+
+# --- 国内直连 ---
+host, heic.alicdn.com, direct
+
+# --- Garmin ---
+host, connectapi.garmin.com, proxy
+host, connectus.garmin.cn, proxy
+host, static.garmin.com, proxy
+host, fonts.garmin.com, proxy
+host, connect.garmin.com, proxy
+host, sso.garmin.com, proxy
+host, omt.garmin.com, proxy
+host, api.gcs.garmin.com, proxy
+host, services.garmin.com, proxy
+host, connectapi.garmin.com, proxy
+
+# --- 海外代理 ---
+host, app-measurement.com, proxy
+
+# --- 内网直连 ---
+host-suffix, local, direct
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 17.0.0.0/8, direct
+ip-cidr, 100.64.0.0/10, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+
+# --- 阻断其他 ---
+ip-cidr, 95.161.76.100/31, reject
+geoip, cn, Mainland
+final, Others
