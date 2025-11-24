@@ -3,6 +3,8 @@ host-suffix, h-adashx.ut.taobao.com, reject
 
 # --- 国内直连 ---
 host, heic.alicdn.com, direct
+host, api.vc.bilibili.com, direct
+host, broadcast.chat.bilibili.com, direct
 
 # --- Garmin ---
 host, connectapi.garmin.com, proxy
