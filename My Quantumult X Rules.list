@@ -26,6 +26,8 @@ host, identity.bitwarden.com, proxy
 
 # --- 海外代理 ---
 host, app-measurement.com, proxy
+host, cache.pocketcasts.com, proxy
+host, sphinx.acast.com, proxy
 
 # --- 内网直连 ---
 host-suffix, local, direct
