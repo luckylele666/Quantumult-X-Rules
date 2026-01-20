@@ -18,6 +18,11 @@ host, api.gcs.garmin.com, proxy
 host, services.garmin.com, proxy
 host, connectapi.garmin.com, proxy
 
+# --- Bitwarden ---
+host, api.bitwarden.com, proxy
+host, icons.bitwarden.net, proxy
+host, identity.bitwarden.com, proxy
+
 # --- 海外代理 ---
 host, app-measurement.com, proxy
 
